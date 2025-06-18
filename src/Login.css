@@ -1,0 +1,137 @@
+.main
+{
+    background-image: url("Background/login.jpg");
+    background-size: cover;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+
+
+.overlay{
+    
+    top: 0;left: 0;right: 0;bottom: 0;
+    background-color: rgba(0, 0,0, 0.8);
+}
+
+.head
+{
+    display: flex;
+}
+
+.logo
+{
+    width: 10%;
+    margin-left: 10%;
+    margin-top: 1.5%;
+}
+
+.SignInButton
+{
+    height: 40px;
+    width: 90px;
+    font-weight: bold;
+    color: white;
+    background-color: red;
+    border-radius: 8px;
+    margin-left: 65%;
+    margin-top: 1.5%;
+}
+
+.mid
+{
+     
+}
+
+.one
+{
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 1px;
+    margin-top: 10%;
+}
+
+.one1
+{
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 1px;
+}
+
+.two
+{
+    color: white;
+    font-weight: bold;
+    font-size: large;
+}
+
+.three
+{
+    color: white;
+}
+
+.email
+{
+    margin-right: 1%;
+    height: 50px;
+    width: 380px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    font-weight: 500;
+    font-size: medium;
+    text-indent: 20px;
+    border-radius: 5px;
+    margin-bottom: 23%;
+}
+
+
+.GetStartedButton
+{
+    all: unset;
+    background-color: red;
+    color: white;
+    height: 60px;
+    width: 190px;
+    border-radius: 5px;
+    font-size: large;
+    font-weight: bold;
+}
+
+.below
+{
+    position: relative;
+    background-color: red;
+    height: 100px;
+    margin-top: -7%;
+    border-radius: 100%;
+
+}
+
+.belowBody
+{
+    position: relative;
+    background-color: black;
+    height: 100px;
+    margin-top: -6.4%;
+    border-top-left-radius: 100%;
+    border-top-right-radius: 100%;
+}
+
+.belowHead
+{
+    position: relative;
+    background-color: black;
+    height: 1000px;
+    margin-top: -3%;
+}
+
+.head2
+{
+    color: white;
+    margin-left: 8%;
+    font-size: x-large;
+    font-weight: bolder;
+}

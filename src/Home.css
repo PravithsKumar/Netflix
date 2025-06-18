@@ -1,0 +1,223 @@
+.main
+{
+    width: 100%;
+    background-color: black;
+}
+
+.back
+{
+    background-color: black;
+    width: 100%;
+}
+
+.header
+{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1% 2%; 
+    color: white;
+    overflow-x: auto;
+    
+}
+
+.sideheading
+{
+    margin: 2%;
+}
+
+.mhide
+{
+   display: flex;
+    
+}
+@media (max-width: 768px)
+{
+    .mhide{
+        display: none;
+    }}
+
+.opt
+{
+    margin-left: 20%;
+}
+.logo
+{
+    height: 40px;
+}
+.search
+{
+    justify-content: flex-end;
+}
+
+.profile
+{
+    height: 30px;
+    width: 30px;
+    border-radius: 30px;
+}
+
+
+
+.poster1
+{
+    height: 100%;
+    width: 100%;
+}
+
+.scroll
+{
+    display: flex;
+    overflow-x: auto;
+    gap: 16px;
+    padding: 20px;
+    scrollbar-width: none;
+    background-color: black;
+}
+
+.scroll::-webkit-scrollbar
+{
+    display: none;
+}
+
+.scroll-i
+{
+    min-height: 200px;
+    height: 400px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.series
+{
+    background-color: black;
+    display: flex;  
+    color: white;
+    overflow-x: auto;
+    scrollbar-width: none;
+}
+
+.seriesp
+{
+    height: 300px;
+    width: 2000px;
+    padding: 10px 20px;
+}
+
+.heading
+{
+    background-color: black;
+    color: white;
+}
+
+.footer
+{
+    width: 100%;
+}
+
+.footer1{
+    width: 100%;
+    height: 300px;
+    background-color: rgb(23, 22, 22);
+
+}
+
+.icon
+{
+    display: flex;
+    gap: 2.5%;
+    padding: 1rem;
+    margin-left: 17%;
+    color: white;
+    
+}
+
+.nav1
+{
+    display: flex;
+    gap: 12%;
+    margin-left: 18%;
+    color: gray;
+    margin-top: 1%;
+    font-size: small;
+}
+
+.nav2
+{
+    display: flex;
+    gap: 12%;
+    margin-left: 18%;
+    color: gray;
+    margin-top: 1%;
+    font-size: small;
+}
+
+.j
+{
+    display: flex;
+    margin-right: 3.5%;
+    color: gray;
+    font-size: small;
+}
+
+.nav3
+{
+    display: flex;
+    gap: 14%;
+    margin-left: 18%;
+    color: gray;
+    margin-top: 1%;
+    font-size: small;
+}
+
+.term
+{
+    margin-right: -1%;
+}
+
+.coki
+{
+    margin-right: -5.5%;
+}
+
+.coo
+{
+    margin-right: -8.3%;
+}
+
+.outerSquare
+{
+    display: flex;
+    justify-content: center;
+    background-color: gray;
+    width: 100px;
+    height: 30px;
+    margin-left: 18%;
+    margin-top: 3%;
+    padding: 1px;
+}
+
+.innerSquare
+{
+    display: flex;
+    height: 30px;
+    width: 100px;
+    background-color: rgb(23, 22, 22);
+    color: gray;
+    justify-content: center;
+}
+
+.copyright
+{
+    margin-left: 18%;
+    margin-top: 2%;
+    display: flex;
+    align-items: center;
+    gap: 0.1%;
+    color: gray;
+    font-size: 12px;
+}
+
