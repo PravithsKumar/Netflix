@@ -15,7 +15,7 @@ function SignIn() {
     e.preventDefault();
     try{
     const res=await
-    axios.post('https://https://netflixbackend-8xls.onrender.com/api/auth/login',{
+    axios.post('https://netflixbackend-8xls.onrender.com/api/auth/login',{
       email,
       password
     });
