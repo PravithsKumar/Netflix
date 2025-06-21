@@ -4,19 +4,18 @@ const router = express.Router();
 const User = require('../models/User');
 
 router.post('/login', async (req, res) => {
+  const { email, password } = req.body;
+
   try {
-    const user = await User.findOne({
-      email: req.body.email,
-      password: req.body.password
-    });
+    const user = await User.findOne({ email, password });
 
     if (!user) {
       return res.status(401).json({ message: "Invalid email or password" });
     }
 
-    res.status(200).json({ message: "Login successful" });
+    res.status(200).json({ message: "Login successful", user });
   } catch (err) {
-    res.status(500).json({ message: "Something went wrong", error: err });
+    res.status(500).json({ message: "Server error", error: err });
   }
 });
 

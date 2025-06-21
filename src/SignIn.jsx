@@ -15,16 +15,23 @@ function SignIn() {
     e.preventDefault();
     try{
     const res=await
-    axios.post('https://netflixbackend-wgic.onrender.com58/api/auth/login',{
+    axios.post('https://netflixbackend-wgic.onrender.com/api/auth/login',{
       email,
       password
     });
-    alert(res.data.message);
-    navigate('/home')
-  }catch(err){
-    alert(err.response?.data?.message || 'Login Faild')
+    if (res.status === 200) {
+      alert("✅ Login successful");
+      navigate('/home')
+    }
+  } catch (err) {
+    if (err.response && err.response.status === 401) {
+      alert("❌ Invalid email or password");
+    } else {
+      alert("⚠️ Something went wrong");
+      console.error(err);
+    }
   }
-  };
+};
 
   const handleSignUp=()=>{
     navigate('/SignUp')
