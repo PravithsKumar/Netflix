@@ -15,7 +15,7 @@ function SignIn() {
     e.preventDefault();
     try{
     const res=await
-    axios.post('http://localhost:5000/api/auth/login',{
+    axios.post('https://netflixbackend-wgic.onrender.com/api/auth/login',{
       email,
       password
     });
