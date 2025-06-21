@@ -16,7 +16,7 @@ function Password() {
   const handleNext =async()=>{
     try{
       const res = await
-      axios.post('https://netflixbackend-wgic.onrender.com/api/user/register',{
+      axios.post('https://netflixbackend-8xls.onrender.com/api/user/register',{
         email,
         password
       });
